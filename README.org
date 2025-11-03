@@ -55,7 +55,7 @@ Tested with:
   CUDA ToolKit Version: 12.4.0
 ** Asking questions about [[https://en.wikipedia.org/wiki/Simple_linear_regression][Simple Linear Regression (SLR)]] from Wikipedia
 1. Install ~pandoc~ and ~wget~
-   This is only needed for downloading the webpage into a txt and *not needed* for the RAG itself, if you already have a .txt or a .pdf just go ahead and use that.
+   This is only needed for downloading the webpage into a txt and *not needed* for the RAG itself, if you already have a .txt or a .pdf just go ahead and use those ;)
 2. Download the page and convert it into a .txt (this is not actually needed but will clean the document and help the model to find meaningful context).
    #+begin_src bash
 wget https://en.wikipedia.org/wiki/Simple_linear_regression
