@@ -64,19 +64,21 @@ mv slr.txt docs
 rm Simple_Linear_Regression
    #+end_src
 3. Run: ~python rag.py~
-   - Output:
-#+begin_src
+*Output:*
+   #+begin_src
 ❯ python rag.py
 llama_context: n_ctx_per_seq (8196) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
 Interactive mode – type '/bye' or Ctrl-D to quit.
 
 🤖 >
-#+end_src
-4. Ask!
+   #+end_src
+- The model is loaded and waiting for questions.
+*Ask!*
    #+begin_src
 🤖 > which method is common stipulated to be used in SLR?
 Question: which method is common stipulated to be used in SLR?
-Answer:  The common and stipulated method used in Simple Linear Regression (SLR) is the Ordinary Least Squares (OLS) method. This method estimates the coefficients of the linear equation that best fits the data according to a defined criterion, which in this case is minimizing the sum of squared residuals (the differences between observed values and values predicted by the model).
+Answer:  The common and stipulated method used in Simple Linear Regression (SLR) is the Ordinary Least Squares (OLS) method. 
+This method estimates the coefficients of the linear equation that best fits the data according to a defined criterion, which in this case is minimizing the sum of squared residuals (the differences between observed values and values predicted by the model).
 Time taken: 1.24 seconds
 
 Context used:
