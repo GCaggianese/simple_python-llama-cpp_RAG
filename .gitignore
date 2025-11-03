@@ -1,0 +1,5 @@
+granite-3.3-2b-instruct-BF16.gguf
+venv
+docs/*
+slr.txt
+chroma_db/*
