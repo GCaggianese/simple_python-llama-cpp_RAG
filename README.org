@@ -12,7 +12,7 @@ For the same reason, it has a lot of rough edges, but it works. Since I didn't f
 - Ninja
 ** Install Python ~requirements.txt~
 #+begin_src bash
-pip install .
+pip install -r requirements.txt
 #+end_src
 ** For Nvidia CUDA support:
 - The easiest way to install ~python-llama-cpp~ with CUDA /(12.4)/ support is using
